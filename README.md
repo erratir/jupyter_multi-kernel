@@ -2,7 +2,11 @@
 
 This repository provides Docker configurations for running Jupyter Notebook environments with support for multiple programming languages.
 
-### Running with Docker Compose
+**base images:**
+- https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html
+- https://github.com/jupyter/docker-stacks
+
+## Running with Docker Compose
 
 Alternatively, you can use the included `docker-compose.yml` file for easier setup. This file allows you to configure and run the images using a single command.
 
