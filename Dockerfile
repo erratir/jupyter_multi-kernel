@@ -53,3 +53,6 @@ RUN  mkdir -p "$(go env GOPATH)"/src/github.com/gopherdata && \
   # in case copied kernel.json has no write permission
   sed "s|gophernotes|$(go env GOPATH)/bin/gophernotes|" < kernel.json.in > kernel.json
 
+
+# install python lib
+# RUN pip install --no-cache-dir matplotlib scikit-learn

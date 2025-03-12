@@ -10,6 +10,7 @@ services:
     volumes:
       - .:/home/jovyan/work
     command: jupyter lab --ip=0.0.0.0 --port=8888 --allow-root
+    #command: start-notebook.py --NotebookApp.token='easy'
     environment:
           - JUPYTER_TOKEN=easy
 #          - PASSWORD=password
