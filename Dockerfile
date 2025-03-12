@@ -56,3 +56,6 @@ RUN  mkdir -p "$(go env GOPATH)"/src/github.com/gopherdata && \
 
 # install python lib
 # RUN pip install --no-cache-dir matplotlib scikit-learn
+
+# install material darcula theme https://github.com/adhadse/theme-material-darcula \
+# RUN conda install -c conda-forge theme-material-darcula
