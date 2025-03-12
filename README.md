@@ -1,6 +1,6 @@
 # Jupyter Multi Kernel Notebook [Python, JavaScript, Golang]
 
-This repository provides Docker configurations for running Jupyter Notebook environments with support for multiple programming languages.
+This repository provides Docker configurations for running Jupyter Notebook environments with support for multiple programming languages (Python, JavaScript, Golang).
 
 **base images:**
 - https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html
